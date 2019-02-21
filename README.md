@@ -31,6 +31,7 @@ M5Stack‚ÉƒXƒPƒbƒ`‚ð‘‚«ž‚ñ‚¾’¼Œã‚àPC‚©‚çUSBƒP[ƒuƒ‹‚ð”²‚¢‚Äˆê“xM5Stack‚Ì“dŒ¹‚ð
 ![‰æ‘œ3](images/image3.png)<br><br><br>
 
 ### ‘€ì•û–@ ###
+(’ˆÓF2019”N2ŒŽŽž“_‚Å‚Ì"Arduino core for the ESP32"‚Å‚Í‘€ìƒpƒlƒ‹‚ª•\Ž¦‚³‚ê‚Ü‚¹‚ñ‚Å‚µ‚½B)<br><br>
 1. M5M5Stack‚Ì“dŒ¹‚ð“ü‚ê‚é‚ÆWiFi AP‚ÉÚ‘±‚µAAP‚©‚çŠ„‚è“–‚Ä‚ç‚ê‚½IPƒAƒhƒŒƒX‚ª•\Ž¦‚³‚ê‚Ü‚·B
 2. •\Ž¦‚³‚ê‚½IPƒAƒhƒŒƒX‚Éƒuƒ‰ƒEƒU‚ÅƒAƒNƒZƒX‚·‚é‚Æ‘€ìƒpƒlƒ‹‚ª•\Ž¦‚³‚ê‚Ü‚·B
 ![‰æ‘œ4](images/image4.png)<br><br>

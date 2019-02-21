@@ -391,7 +391,8 @@ void setup()
 
   file = NULL;
   buff = NULL;
-  out = new AudioOutputI2S(0,AudioOutputI2S::INTERNAL_DAC, AudioOutputI2S::APLL_DISABLE);
+//  out = new AudioOutputI2S(0,AudioOutputI2S::INTERNAL_DAC, AudioOutputI2S::APLL_DISABLE);
+  out = new AudioOutputI2S(0,AudioOutputI2S::INTERNAL_DAC);
   decoder = NULL;
 
   M5.update();
