@@ -1,4 +1,4 @@
-# M5Stack_WebRadio_Avator
+# M5Stack_WebRadio_Avatar
 M5Stack‚ÅAvatar•\Ž¦•t‚«WebRadio
 
 
