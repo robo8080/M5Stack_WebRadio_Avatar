@@ -178,7 +178,7 @@ bool WebReadRequest(WiFiClient *client, char *reqBuff, int reqBuffLen, char **ur
   char *url;
   char *qp;
   if (!memcmp_P(reqBuff, PSTR("GET "), 4)) {
-    client->flush(); // Don't need anything here...
+//    client->flush(); // Don't need anything here...
     
     // Break into URL and form data
     url = reqBuff+4;
@@ -203,7 +203,7 @@ bool WebReadRequest(WiFiClient *client, char *reqBuff, int reqBuffLen, char **ur
     qp = reqBuff + strlen(reqBuff) + 1;
     int wlen = client->readBytesUntil('\r', qp, sizeleft-1);
     qp[wlen] = 0;
-    client->flush();
+//    client->flush();
     URLDecode(qp);
   } else {
     // Not a GET or POST, error
@@ -308,7 +308,3 @@ void Read4Int(char *str, byte *p)
   str += ParseInt(str, &i); p[2] = i; if (*str) str++;
   str += ParseInt(str, &i); p[3] = i;
 }
-
-
-
-

@@ -348,8 +348,8 @@ void setup()
     while (1) delay(1000); // Infinite halt
   }
 
-  Serial.begin(115200);
-  M5.begin();
+//  Serial.begin(115200);
+  M5.begin(true, false, true, false);
   M5.Lcd.setBrightness(30);
   M5.Lcd.clear();
   M5.Lcd.setTextSize(2);
@@ -544,4 +544,3 @@ void loop()
     client.stop();
   }
 }
-
